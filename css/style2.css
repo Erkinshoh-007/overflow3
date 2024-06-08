@@ -1,0 +1,49 @@
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: none;
+  overflow: hidden;
+  background: #000;
+  border-radius: 20px;
+}
+.box_section {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  border: 1px solid #2d2d2d;
+  bottom: -55px;
+  right: -55px;
+  background-color: rgb(209, 209, 49);
+  border-radius: 50%;
+}
+.box_section:hover {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #2d2d2d;
+  margin: 400px 0 0 400px;
+  background-color: rgb(54, 189, 42);
+  transform: scale(1.5);
+  transition: 1s;
+  border-radius: 50%;
+}
+.box_section1 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  border: 1px solid #2d2d2d;
+  top: -55px;
+  left: -55px;
+  background-color: rgb(209, 209, 49);
+  border-radius: 50%;
+}
+.box_section1:hover {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #2d2d2d;
+  /* margin: 400px 0 0 400px; */
+  background-color: rgb(209, 30, 30);
+  transform: scale(1.5);
+  transition: 1s;
+  border-radius: 50%;
+}
